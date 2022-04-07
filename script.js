@@ -1,4 +1,6 @@
-let szamolas = function szamol() {}
+let szamolas = function szamol (event) {
+event.preventDefault();
+
 function szamol () {
     let F = document.getElementById('fogyasztas').value;
     let V = document.getElementById('tank').value;
@@ -12,5 +14,7 @@ function szamol () {
     } else {
     document.getElementById('megoldas').innerHTML = "Az út megtehető tankolás nélkül."
     }
+    return false;
 }
-document.getElementById('szamol').addEventListener('click', szamolas)
+document.getElementById('szamol').addEventListener('click', szamolas);
+}
