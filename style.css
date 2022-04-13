@@ -3,17 +3,18 @@
     width: 600px;
     border: 1px solid #333;
     padding: 20px;
-border-radius: 10px;
-background-color: #eee;
-
-}
-.form {
+    border-radius: 10px;
+    background-color: #eee;
+  }
+  
+  .form {
     border: 1px solid #333;
     padding: 20px;
     border-radius: 10px;
     background-color: #ddd;
-line-height: 2em;
-}
-#megoldas {
-color: green;
-}
+    line-height: 2em;
+  }
+  
+  .megoldas {
+    color: green;
+  }
